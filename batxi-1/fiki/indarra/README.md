@@ -10,13 +10,9 @@ $$F=K\cdot \Delta l$$
 
 $$\color{gray} \Delta l=l-l_0$$
 
-$K$
-_Elastizitatea_ — `N/m`
+\(\color{gray}{K}\) — *Elastizitatea* — `N/m`
 
-$\Delta l$
-Luzera tartea / Deformazioa
-
-
+\(\color{gray}{\Delta l}\) — *Luzera tartea* / *Deformazioa*
 
 ## Indar __osoa__
 $$F_{\vec{R}}=F_1+F_2+...$$
