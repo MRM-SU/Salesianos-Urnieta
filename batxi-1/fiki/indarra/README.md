@@ -1,8 +1,3 @@
-<script type="text/javascript"
-  async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
-
 # Batxi 1 - Fiki - Indarra
 ## Magnitude __bektoriala__
 - Modulua `N`
@@ -25,3 +20,11 @@ $$F_{nx}=F_n \cos \theta$$
 $$F_{ny}=F_n \sin \theta$$
 
 $$\tan \theta=\frac{F_{ny}}{F_{nx}} \Rightarrow \tan^{-1} \left(\frac{F_{nx}}{F_{ny}}\right)=\theta$$
+
+
+
+
+<script type="text/javascript"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
