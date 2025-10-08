@@ -1,4 +1,4 @@
 # Salesianos-Urnieta
 ## Cursos disponibles
 ### Batxi
-  - [Batxi 1](/batxi-1)
+  - [Batxi 1](./batxi-1)
