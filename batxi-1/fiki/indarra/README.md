@@ -6,7 +6,7 @@
 - Aplikazio puntua `Puntua`
 
 ## Gorputz __elastikoak__
-$F = K \cdot \Delta l$
+$$F = K \cdot \Delta l$$
 
 $$\color{gray} \Delta l=l-l_0$$
 
