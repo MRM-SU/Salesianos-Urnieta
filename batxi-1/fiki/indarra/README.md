@@ -7,10 +7,10 @@
 
 ## Gorputz __elastikoak__
 $$F=K\cdot \Delta l$$
-> $\Delta l=l-l_0$
+<p color="grey">$\Delta l=l-l_0$</p>
 
-$K$ "_Elastizitatea_" `N/m`
-$\Delta l$ Luzera tartea / Deformazioa
+- $K$ "_Elastizitatea_" `N/m`
+- $\Delta l$ Luzera tartea / Deformazioa
 
 ## Indar __osoa__
 $$F_{\vec{R}}=F_1+F_2+...$$
