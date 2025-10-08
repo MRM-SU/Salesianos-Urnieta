@@ -9,6 +9,7 @@
 $$F=K\cdot \Delta l$$
 
 $$\color{gray} \Delta l=l-l_0$$
+
 $\color{gray}{K}$ _Elastizitatea_ — `N/m`
 
 $\color{gray}{\Delta l}$ Luzera tartea / Deformazioa
