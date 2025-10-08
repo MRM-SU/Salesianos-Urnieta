@@ -7,7 +7,7 @@
 
 ## Gorputz __elastikoak__
 $$F=K\cdot \Delta l$$
-<p color="grey">$\Delta l=l-l_0$</p>
+$\color{gray}\Delta l=l-l_0$
 
 - $K$ "_Elastizitatea_" `N/m`
 - $\Delta l$ Luzera tartea / Deformazioa
