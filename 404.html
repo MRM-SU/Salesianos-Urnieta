@@ -24,7 +24,7 @@
 
         if (index !== -1) {
             const afterPath = url.substring(index + basePath.length);
-            const file_url = `/${afterPath}.md.html`;
+            const file_url = `/files/${afterPath}.md.html`;
             let [md,content] = await fetch(file_url).then(async response => [response,await response.text()])
             if (md.status != 200) {
                 let status = md.status;
