@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-<script src="https://MRM-SU.github.io/Salesianos-Urnieta/scripts/"></script>
+<script src="https://MRM-SU.github.io/Salesianos-Urnieta/scripts/main.js"></script>
 <title>Salesianos Urnieta</title>
 <textarea>
 # Salesianos-Urnieta
