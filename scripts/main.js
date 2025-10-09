@@ -6,6 +6,6 @@ document.addEventListener('DOMContentLoaded',() => {
     let secScript = document.createElement('script');
     secScript.src="https://cdn.jsdelivr.net/npm/texme@1.2.2";
 
-    document.head.appendChild(firstChild);
-    document.head.appendChild(secChild);
+    document.head.appendChild(firstScript);
+    document.head.appendChild(secScript);
 })
