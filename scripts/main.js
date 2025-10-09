@@ -8,4 +8,15 @@ document.addEventListener('DOMContentLoaded',() => {
 
     document.head.appendChild(firstScript);
     document.head.appendChild(secScript);
+
+    setTimeout(() => {
+        const links = document.querySelectorAll('a');
+
+        links.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.open(link.href, '_parent');
+        });
+    }, 500)
+  });
 })
