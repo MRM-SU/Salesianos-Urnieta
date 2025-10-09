@@ -1,0 +1,53 @@
+<style>
+    iframe {
+        border: none;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+
+        opacity: 0;
+
+        transition: all .5s ease-in-out;
+    }
+</style>
+
+<iframe></iframe>
+<script>
+    async function main() {
+        const basePath = "glowing-sniffle-5g7x49xgr4p634455-8000.app.github.dev/";
+        const url = window.location.href;
+
+        // Find the position where the basePath ends
+        const index = url.indexOf(basePath);
+
+        if (index !== -1) {
+            const afterPath = url.substring(index + basePath.length);
+            const file_url = `/${afterPath}.md.html`;
+            let [md,content] = await fetch(file_url).then(async response => [response,await response.text()])
+            if (md.status != 200) {
+                let status = md.status;
+                let text = 'Error';
+
+            
+                document.body.innerHTML='';
+                
+
+                let h1 = document.createElement('h1')
+                document.body.appendChild(h1)
+                h1.textContent = status
+
+                let h3 = document.createElement('h3')
+                document.body.appendChild(h3)
+                h3.textContent = text
+            } else {
+                document.body.querySelector('iframe').src = file_url;
+            }
+        } else {
+            console.log("Base path not found in URL");
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded',(event) => { main() });
+</script>
