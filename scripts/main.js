@@ -8,5 +8,4 @@ document.addEventListener('DOMContentLoaded',() => {
 
     document.head.appendChild(firstScript);
     document.head.appendChild(secScript);
-  });
 })
