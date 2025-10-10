@@ -1,6 +1,12 @@
-body {
+body>*:not(#loading):not(#loaded) {
     opacity:0;
+}
+
+* {
     transition:all 2.5s ease-in-out;
+}
+
+body {
     padding-top: 50px;
 }
 

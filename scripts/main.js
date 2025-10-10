@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded',() => {
     firstScript.onload = () => {
         setTimeout( () => {
             loading.remove();
-            document.body.style.opacity = 1;
+            document.body.id='loaded';
         }, 1500 )
     }
 })
