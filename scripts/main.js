@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded',() => {
+    let topbar = document.body.appendChild(document.createElement('div'));
+    topbar.id='topbar';
+
     document.body.style.transition = 'all 1.5s ease-in-out';
 
     setTimeout( () => {
