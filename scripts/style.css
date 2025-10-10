@@ -57,3 +57,18 @@ pre, code, samp, kbd {
         rotate: 360deg;
     }
 }
+
+
+
+#topbar button {
+    background: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 0;
+}
+
+#topbar button:hover {
+    background: white;
+    color: black;
+}

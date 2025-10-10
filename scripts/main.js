@@ -12,8 +12,28 @@ document.addEventListener('DOMContentLoaded',() => {
     document.head.appendChild(firstScript);
     document.head.appendChild(secScript);
 
+
+
+    let pdfScript = document.createElement('script');
+    pdfScript.src = "https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js";
+    document.head.appendChild(pdfScript);
+
+
+
+
     let loading = document.body.appendChild(document.createElement('div'));
     loading.id="loading";
+
+    let downloadBtn = document.createElement('button');
+    downloadBtn.textContent = '📄 Descargar PDF';
+    downloadBtn.onclick = () => {
+        let content = document.querySelector('main') || document.body; // o ajusta según tu estructura
+        html2pdf().from(content).save('blog.pdf');
+    };
+    topbar.appendChild(downloadBtn);
+
+
+
 
     firstScript.onload = () => {
         setTimeout( () => {
