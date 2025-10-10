@@ -25,3 +25,29 @@ pre, code, samp, kbd {
     border-radius: 5px;
     font-family: monospace, monospace;
 }
+
+#loading {
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    left: calc(50% - 75px);
+    top: calc(50% - 75px);
+    background: conic-gradient(#ddd 75%,#009 75%);
+    border-radius: 100%;
+    mask-image: radial-gradient(circle at center, transparent 60%, black 60%);
+    mask-type: alpha;
+
+    animation: 1.5s rotate infinite linear;
+}
+
+@keyframes rotate {
+    0% {
+        rotate: 0deg
+    }
+    50% {
+        rotate: 181deg
+    }
+    100% {
+        rotate: 360deg;
+    }
+}

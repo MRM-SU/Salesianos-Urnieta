@@ -12,8 +12,12 @@ document.addEventListener('DOMContentLoaded',() => {
     document.head.appendChild(firstScript);
     document.head.appendChild(secScript);
 
+    let loading = document.body.appendChild(document.createElement('div'));
+    loading.id="loading";
+
     firstScript.onload = () => {
         setTimeout( () => {
+            loading.remove();
             document.body.style.opacity = 1;
         }, 500 )
     }
