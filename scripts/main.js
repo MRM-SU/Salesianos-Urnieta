@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded',() => {
-    document.body.style.opacity = 0;
     document.body.style.transition = 'all 1.5s ease-in-out';
 
     setTimeout( () => {
