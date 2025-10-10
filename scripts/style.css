@@ -1,4 +1,4 @@
-body>*:not(#loading):not(#loaded) {
+body:not(#loaded)>*:not(#loading) {
     opacity:0;
 }
 
