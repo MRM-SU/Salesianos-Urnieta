@@ -19,6 +19,6 @@ document.addEventListener('DOMContentLoaded',() => {
         setTimeout( () => {
             loading.remove();
             document.body.style.opacity = 1;
-        }, 500 )
+        }, 1500 )
     }
 })
