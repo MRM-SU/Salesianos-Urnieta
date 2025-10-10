@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded',() => {
     let lang = (window.hash || '#eus').slice(1);
     Array.from(document.querySelectorAll('lang')).forEach((l) => {
-        if (lang.id == l) {
+        if (l.id == lang) {
             document.querySelector('textarea').value = l.innerText
         }
     })
