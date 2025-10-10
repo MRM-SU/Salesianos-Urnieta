@@ -1,4 +1,11 @@
 document.addEventListener('DOMContentLoaded',() => {
+    let lang = (window.hash || '#eus').slice(1);
+    document.querySelectorAll('lang').forEach((l) => {
+        if (lang.id == l) {
+            document.querySelector('textarea').value = l.content
+        }
+    })
+
     let topbar = document.body.appendChild(document.createElement('div'));
     topbar.id='topbar';
 
