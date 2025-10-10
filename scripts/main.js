@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded',() => {
     loading.id="loading";
 
     let downloadBtn = document.createElement('button');
-    downloadBtn.textContent = '📄 Descargar PDF';
+    downloadBtn.textContent = '📄 Descargar PDF (beta)';
     downloadBtn.onclick = () => {
         let content = document.querySelector('main') || document.body; // o ajusta según tu estructura
         html2pdf().from(content).save('blog.pdf');
