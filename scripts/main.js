@@ -1,4 +1,11 @@
 document.addEventListener('DOMContentLoaded',() => {
+    document.body.style.opacity = 0;
+    document.body.style.transition = 'all 1.5s ease-in-out';
+
+    setTimeout( () => {
+        document.body.style.opacity = 1;
+    }, 250 )
+
     let firstScript = document.createElement('script');
     firstScript.async = true;
     firstScript.src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js";
